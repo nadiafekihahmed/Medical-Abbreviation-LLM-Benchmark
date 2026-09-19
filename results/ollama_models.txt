@@ -1,0 +1,5 @@
+NAME                    ID              SIZE      MODIFIED       
+qwen2.5:3b              357c53fb659c    1.9 GB    35 minutes ago    
+qwen3-bakeoff:latest    ec18bcdb2ac3    2.5 GB    2 hours ago       
+qwen3:4b                359d7dd4bcda    2.5 GB    3 hours ago       
+llama3.2:latest         a80c4f17acd5    2.0 GB    4 weeks ago       

@@ -1,0 +1,51 @@
+id,split,abbreviation,expected,output,correct,status,error,latency_ms,prompt_tokens,output_tokens,tokens_per_second
+11,test,COPD,chronic obstructive pulmonary disease,Chronic Obstructive Pulmonary Disease,1,ok,,3979.629500005103,89,9,5.332815062713905
+12,test,CHF,congestive heart failure,Congestive Heart Failure,1,ok,,3626.1997999972664,88,6,5.710766799610875
+13,test,CAD,coronary artery disease,coronary artery disease,1,ok,,3535.573299996031,87,6,5.720360192013423
+14,test,CVA,cerebrovascular accident,stroke,0,ok,,2777.214500005357,88,2,9.400351573148836
+15,test,DVT,deep vein thrombosis,Deep Vein Thrombosis,1,ok,,4051.5929000030155,88,8,5.430997144653252
+16,test,PE,pulmonary embolism,Physical Examination,0,ok,,2925.6047000017134,87,3,7.073186258213738
+17,test,UTI,urinary tract infection,Urinary Tract Infection,1,ok,,3820.8914999995613,88,7,5.5162935550778265
+18,test,GERD,gastroesophageal reflux disease,gastroesophageal reflux disease,1,ok,,4066.230500000529,88,8,5.409155265745037
+19,test,PUD,peptic ulcer disease,peptic ulcer disease,1,ok,,3428.305800000089,88,5,5.8996075581052345
+20,test,IBS,irritable bowel syndrome, Irritable Bowel Syndrome,1,ok,,3610.8757000038167,88,6,5.738068648090054
+21,test,IBD,inflammatory bowel disease,Inflammatory Bowel Disease,1,ok,,3555.7877000028384,88,6,5.734492975246106
+22,test,SLE,systemic lupus erythematosus,Systemic Lupus Erythematosus,1,ok,,4488.918399998511,88,10,5.295606023857764
+23,test,RA,rheumatoid arthritis,Rheumatoid Arthritis,1,ok,,3747.6667999944766,87,7,5.547379774411839
+24,test,OA,osteoarthritis,osteoarthritis,1,ok,,3331.916999995883,87,5,5.943741299848672
+25,test,AKI,acute kidney injury,Acute Kidney Injury,1,ok,,3605.6136000042898,88,6,5.6519101572361405
+26,test,CKD,chronic kidney disease,ChronicKidneyDisease,0,ok,,3840.030699997442,88,7,5.548936467055568
+27,test,BUN,blood urea nitrogen,blood urea nitrogen,1,ok,,3395.7547999962117,88,5,5.942999503165241
+28,test,WBC,white blood cell,white blood cell,1,ok,,3194.7412000008626,88,4,6.338672079892623
+29,test,RBC,red blood cell,red blood cell,1,ok,,3186.152400005085,88,4,6.345842045645642
+30,test,Hgb,hemoglobin,hemoglobin,1,ok,,2987.9748999956064,88,3,7.097097760155948
+31,test,Hct,hematocrit,hematocrit,1,ok,,3328.439500000968,88,5,5.926368428101891
+32,test,ESR,erythrocyte sedimentation rate,Erythrocyte Sedimentation Rate,1,ok,,4483.6211999936495,88,10,5.294826530893195
+33,test,CRP,C-reactive protein,C-reactive protein,1,ok,,3398.7209999977495,88,5,5.936846204811695
+34,test,HbA1c,hemoglobin A1c,hemoglobin a1c,1,ok,,3720.061899999564,91,6,5.725802763010744
+35,test,TSH,thyroid-stimulating hormone,thyroid stimulating hormone,0,ok,,3394.5926999949734,88,5,5.967014344702484
+36,test,T4,thyroxine,thyroxine,1,ok,,3113.683999996283,88,4,6.346526704597741
+37,test,CXR,chest X-ray,chest x ray,0,ok,,3200.828299995919,88,4,6.282531734638424
+38,test,EEG,electroencephalogram,electroencephalogram,1,ok,,3835.5236999996123,88,7,5.5498163407206675
+39,test,EMG,electromyography,Electromyography,1,ok,,3403.161200003524,88,5,5.934598352318114
+40,test,PET,positron emission tomography,positron emission tomography,1,ok,,3499.7638999993796,87,6,5.72701059184551
+41,test,SOB,shortness of breath,shortness of breath,1,ok,,3417.4656000031973,88,5,5.944066335780307
+42,test,NPO,nothing by mouth,nothing by mouth,1,ok,,3180.958600001759,88,4,6.345338714180563
+43,test,PRN,as needed,pro re nata,0,ok,,3393.7478000007104,88,5,5.966629832671833
+44,test,STAT,immediately,STANDING ORDER,0,ok,,3132.897999996203,87,4,6.372694279550981
+45,test,BID,twice daily,twice daily,1,ok,,3224.5499000055133,88,4,6.3002742194354004
+46,test,TID,three times daily,three times a day,0,ok,,3474.536599998828,88,5,5.6270693547552115
+47,test,QID,four times daily,Four times a day,0,ok,,3459.4123999995645,88,5,5.685455581241181
+48,test,PO,by mouth,per oral,0,ok,,2934.3616999976803,87,3,7.106899615042938
+49,test,IM,intramuscular,Intramuscular,1,ok,,3341.6022999954293,87,5,5.930979999549246
+50,test,SC,subcutaneous,subcutaneous,1,ok,,3157.2287999952096,87,4,6.18286758307069
+51,test,ENT,ear nose and throat,ear nose and throat,1,ok,,3348.9521000010427,87,5,5.9533660927224865
+52,test,OBGYN,obstetrics and gynecology,obstetrics and gynecology,1,ok,,3992.596999996749,89,8,5.407816999472738
+53,test,NICU,neonatal intensive care unit,Neonatal Intensive Care Unit,1,ok,,4083.5787000032724,88,8,5.424479046593563
+54,test,PICU,pediatric intensive care unit,Pediatric Intensive Care Unit,1,ok,,3838.090299999749,88,7,5.544699386201778
+55,test,ED,emergency department,Emergency Department,1,ok,,2922.335600000224,87,3,7.2025007082459025
+56,test,OR,operating room,operative report,0,ok,,2934.5183999976143,87,3,7.114011519955988
+57,test,PACU,post-anesthesia care unit,Post Anesthesia Care Unit,0,ok,,3544.337399995129,89,6,5.753397860886675
+58,test,PPE,personal protective equipment,Pre Exposure Prophylaxis,0,ok,,3770.628799997212,88,7,5.542214653140496
+59,test,AED,automated external defibrillator,Automatic External Defibrillator,0,ok,,3627.8462999980547,88,6,5.71090812005471
+60,test,DNR,do not resuscitate,do not resuscitate,1,ok,,3646.9380000053206,88,6,5.70013309810784

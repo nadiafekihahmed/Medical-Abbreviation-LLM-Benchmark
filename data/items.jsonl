@@ -1,0 +1,60 @@
+{"id":1,"split":"dev","abbreviation":"BP","expected":"blood pressure"}
+{"id":2,"split":"dev","abbreviation":"HR","expected":"heart rate"}
+{"id":3,"split":"dev","abbreviation":"BMI","expected":"body mass index"}
+{"id":4,"split":"dev","abbreviation":"ECG","expected":"electrocardiogram"}
+{"id":5,"split":"dev","abbreviation":"MRI","expected":"magnetic resonance imaging"}
+{"id":6,"split":"dev","abbreviation":"CT","expected":"computed tomography"}
+{"id":7,"split":"dev","abbreviation":"CBC","expected":"complete blood count"}
+{"id":8,"split":"dev","abbreviation":"ICU","expected":"intensive care unit"}
+{"id":9,"split":"dev","abbreviation":"CPR","expected":"cardiopulmonary resuscitation"}
+{"id":10,"split":"dev","abbreviation":"IV","expected":"intravenous"}
+{"id":11,"split":"test","abbreviation":"COPD","expected":"chronic obstructive pulmonary disease"}
+{"id":12,"split":"test","abbreviation":"CHF","expected":"congestive heart failure"}
+{"id":13,"split":"test","abbreviation":"CAD","expected":"coronary artery disease"}
+{"id":14,"split":"test","abbreviation":"CVA","expected":"cerebrovascular accident"}
+{"id":15,"split":"test","abbreviation":"DVT","expected":"deep vein thrombosis"}
+{"id":16,"split":"test","abbreviation":"PE","expected":"pulmonary embolism"}
+{"id":17,"split":"test","abbreviation":"UTI","expected":"urinary tract infection"}
+{"id":18,"split":"test","abbreviation":"GERD","expected":"gastroesophageal reflux disease"}
+{"id":19,"split":"test","abbreviation":"PUD","expected":"peptic ulcer disease"}
+{"id":20,"split":"test","abbreviation":"IBS","expected":"irritable bowel syndrome"}
+{"id":21,"split":"test","abbreviation":"IBD","expected":"inflammatory bowel disease"}
+{"id":22,"split":"test","abbreviation":"SLE","expected":"systemic lupus erythematosus"}
+{"id":23,"split":"test","abbreviation":"RA","expected":"rheumatoid arthritis"}
+{"id":24,"split":"test","abbreviation":"OA","expected":"osteoarthritis"}
+{"id":25,"split":"test","abbreviation":"AKI","expected":"acute kidney injury"}
+{"id":26,"split":"test","abbreviation":"CKD","expected":"chronic kidney disease"}
+{"id":27,"split":"test","abbreviation":"BUN","expected":"blood urea nitrogen"}
+{"id":28,"split":"test","abbreviation":"WBC","expected":"white blood cell"}
+{"id":29,"split":"test","abbreviation":"RBC","expected":"red blood cell"}
+{"id":30,"split":"test","abbreviation":"Hgb","expected":"hemoglobin"}
+{"id":31,"split":"test","abbreviation":"Hct","expected":"hematocrit"}
+{"id":32,"split":"test","abbreviation":"ESR","expected":"erythrocyte sedimentation rate"}
+{"id":33,"split":"test","abbreviation":"CRP","expected":"C-reactive protein"}
+{"id":34,"split":"test","abbreviation":"HbA1c","expected":"hemoglobin A1c"}
+{"id":35,"split":"test","abbreviation":"TSH","expected":"thyroid-stimulating hormone"}
+{"id":36,"split":"test","abbreviation":"T4","expected":"thyroxine"}
+{"id":37,"split":"test","abbreviation":"CXR","expected":"chest X-ray"}
+{"id":38,"split":"test","abbreviation":"EEG","expected":"electroencephalogram"}
+{"id":39,"split":"test","abbreviation":"EMG","expected":"electromyography"}
+{"id":40,"split":"test","abbreviation":"PET","expected":"positron emission tomography"}
+{"id":41,"split":"test","abbreviation":"SOB","expected":"shortness of breath"}
+{"id":42,"split":"test","abbreviation":"NPO","expected":"nothing by mouth"}
+{"id":43,"split":"test","abbreviation":"PRN","expected":"as needed"}
+{"id":44,"split":"test","abbreviation":"STAT","expected":"immediately"}
+{"id":45,"split":"test","abbreviation":"BID","expected":"twice daily"}
+{"id":46,"split":"test","abbreviation":"TID","expected":"three times daily"}
+{"id":47,"split":"test","abbreviation":"QID","expected":"four times daily"}
+{"id":48,"split":"test","abbreviation":"PO","expected":"by mouth"}
+{"id":49,"split":"test","abbreviation":"IM","expected":"intramuscular"}
+{"id":50,"split":"test","abbreviation":"SC","expected":"subcutaneous"}
+{"id":51,"split":"test","abbreviation":"ENT","expected":"ear nose and throat"}
+{"id":52,"split":"test","abbreviation":"OBGYN","expected":"obstetrics and gynecology"}
+{"id":53,"split":"test","abbreviation":"NICU","expected":"neonatal intensive care unit"}
+{"id":54,"split":"test","abbreviation":"PICU","expected":"pediatric intensive care unit"}
+{"id":55,"split":"test","abbreviation":"ED","expected":"emergency department"}
+{"id":56,"split":"test","abbreviation":"OR","expected":"operating room"}
+{"id":57,"split":"test","abbreviation":"PACU","expected":"post-anesthesia care unit"}
+{"id":58,"split":"test","abbreviation":"PPE","expected":"personal protective equipment"}
+{"id":59,"split":"test","abbreviation":"AED","expected":"automated external defibrillator"}
+{"id":60,"split":"test","abbreviation":"DNR","expected":"do not resuscitate"}

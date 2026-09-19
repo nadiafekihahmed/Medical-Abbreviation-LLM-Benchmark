@@ -1,0 +1,151 @@
+model,role,id,split,abbreviation,expected,output,correct,status,error,latency_ms,prompt_tokens,output_tokens,tokens_per_second
+Qwen2.5 7B Instruct,Top stand-in,11,test,COPD,chronic obstructive pulmonary disease,Chronic Obstructive Pulmonary Disease,1,ok,,1890.3240840008948,89,9,5.49898726984447
+Qwen2.5 7B Instruct,Top stand-in,12,test,CHF,congestive heart failure,Congestive Heart Failure,1,ok,,1681.4334069986216,88,6,5.785117592156923
+Qwen2.5 7B Instruct,Top stand-in,13,test,CAD,coronary artery disease,coronary artery disease,1,ok,,1620.2911679993122,87,6,5.598054121612178
+Qwen2.5 7B Instruct,Top stand-in,14,test,CVA,cerebrovascular accident,Cerebrovascular Accident,1,ok,,1721.0538720009936,88,6,5.593294758243817
+Qwen2.5 7B Instruct,Top stand-in,15,test,DVT,deep vein thrombosis,Deep Vein Thrombosis,1,ok,,2110.5646819996764,88,8,5.685363458179177
+Qwen2.5 7B Instruct,Top stand-in,16,test,PE,pulmonary embolism,Physical Examination,0,ok,,1064.4851319993904,87,3,6.092595262804097
+Qwen2.5 7B Instruct,Top stand-in,17,test,UTI,urinary tract infection,Urinary Tract Infection,1,ok,,1859.79775099986,88,7,5.833911862926407
+Qwen2.5 7B Instruct,Top stand-in,18,test,GERD,gastroesophageal reflux disease,gastroesophageal reflux disease,1,ok,,2084.1916620011034,88,8,6.409465498648404
+Qwen2.5 7B Instruct,Top stand-in,19,test,PUD,peptic ulcer disease,peptic ulcer disease,1,ok,,1626.614390999748,88,5,6.241223279762834
+Qwen2.5 7B Instruct,Top stand-in,20,test,IBS,irritable bowel syndrome,IrritableBowelSyndrome,0,ok,,2292.772312001034,88,9,6.253183043868858
+Qwen2.5 7B Instruct,Top stand-in,21,test,IBD,inflammatory bowel disease,Inflammatory Bowel Disease,1,ok,,1792.0485550002925,88,6,5.815987962665224
+Qwen2.5 7B Instruct,Top stand-in,22,test,SLE,systemic lupus erythematosus,Systemic Lupus Erythematosus,1,ok,,2438.806607000515,88,10,6.3627519411165485
+Qwen2.5 7B Instruct,Top stand-in,23,test,RA,rheumatoid arthritis,Rheumatoid Arthritis,1,ok,,2053.250424998623,87,7,5.233809211205137
+Qwen2.5 7B Instruct,Top stand-in,24,test,OA,osteoarthritis,osteoarthritis,1,ok,,1695.8274560001882,87,5,5.628710023494236
+Qwen2.5 7B Instruct,Top stand-in,25,test,AKI,acute kidney injury,Acute Kidney Injury,1,ok,,1738.1943439995666,88,6,7.093187938743228
+Qwen2.5 7B Instruct,Top stand-in,26,test,CKD,chronic kidney disease,ChronicKidneyDisease,0,ok,,2046.3336550001256,88,7,6.146011677422187
+Qwen2.5 7B Instruct,Top stand-in,27,test,BUN,blood urea nitrogen,blood urea nitrogen,1,ok,,1624.979758000336,88,5,6.66747565371265
+Qwen2.5 7B Instruct,Top stand-in,28,test,WBC,white blood cell,WhiteBloodCell,0,ok,,1616.492532000848,88,4,5.204660252790349
+Qwen2.5 7B Instruct,Top stand-in,29,test,RBC,red blood cell,red blood cell,1,ok,,1536.5681839994068,88,4,6.695120930621809
+Qwen2.5 7B Instruct,Top stand-in,30,test,Hgb,hemoglobin,hemoglobin,1,ok,,1339.2564639998454,88,3,5.810023840464493
+Qwen2.5 7B Instruct,Top stand-in,31,test,Hct,hematocrit,Hematocrit,1,ok,,1845.0376099990533,88,5,6.216763627456709
+Qwen2.5 7B Instruct,Top stand-in,32,test,ESR,erythrocyte sedimentation rate,Erythrocyte Sedimentation Rate,1,ok,,2589.8844090006605,88,10,6.709103985744496
+Qwen2.5 7B Instruct,Top stand-in,33,test,CRP,C-reactive protein,C-Reactive Protein,1,ok,,1717.8535849998298,88,5,6.03107208337354
+Qwen2.5 7B Instruct,Top stand-in,34,test,HbA1c,hemoglobin A1c,hemoglobin A1c,1,ok,,1955.3773819989144,91,6,7.704417456155444
+Qwen2.5 7B Instruct,Top stand-in,35,test,TSH,thyroid-stimulating hormone,thyroid stimulating hormone,0,ok,,1429.2318709995016,88,5,7.334432520287041
+Qwen2.5 7B Instruct,Top stand-in,36,test,T4,thyroxine,thyroxine,1,ok,,1174.791658999311,88,4,7.501157991264901
+Qwen2.5 7B Instruct,Top stand-in,37,test,CXR,chest X-ray,chest x ray,0,ok,,1263.3071020009083,88,4,7.63519059344519
+Qwen2.5 7B Instruct,Top stand-in,38,test,EEG,electroencephalogram,electroencephalogram,1,ok,,1728.774295999756,88,7,7.20995385629532
+Qwen2.5 7B Instruct,Top stand-in,39,test,EMG,electromyography,Electromyography,1,ok,,1459.0740329986147,88,5,7.107229616110099
+Qwen2.5 7B Instruct,Top stand-in,40,test,PET,positron emission tomography,positron emission tomography,1,ok,,1505.250902999251,87,6,6.962511517154468
+Qwen2.5 7B Instruct,Top stand-in,41,test,SOB,shortness of breath,ShortnessOfBreath,0,ok,,1841.7783410004631,88,6,5.523386940872143
+Qwen2.5 7B Instruct,Top stand-in,42,test,NPO,nothing by mouth,nothing by mouth,1,ok,,1338.836490000176,88,4,7.359461876147617
+Qwen2.5 7B Instruct,Top stand-in,43,test,PRN,as needed,pro re nata,0,ok,,1437.6424590009265,88,5,7.266132266858881
+Qwen2.5 7B Instruct,Top stand-in,44,test,STAT,immediately,STANDING ORDER,0,ok,,1200.8621580007457,87,4,7.377555631380432
+Qwen2.5 7B Instruct,Top stand-in,45,test,BID,twice daily,twice daily,1,ok,,1367.0531090010627,88,4,6.894138775566483
+Qwen2.5 7B Instruct,Top stand-in,46,test,TID,three times daily,three times a day,0,ok,,1431.9744620006531,88,5,7.360052285811438
+Qwen2.5 7B Instruct,Top stand-in,47,test,QID,four times daily,Four Times Daily,1,ok,,1511.5913750014442,88,4,7.306296383565948
+Qwen2.5 7B Instruct,Top stand-in,48,test,PO,by mouth,per oral,0,ok,,1188.5050640012196,87,3,7.466196794015097
+Qwen2.5 7B Instruct,Top stand-in,49,test,IM,intramuscular,Intramuscular,1,ok,,1449.3583389994456,87,5,7.163754839116394
+Qwen2.5 7B Instruct,Top stand-in,50,test,SC,subcutaneous,subcutaneous,1,ok,,1261.9401890005977,87,4,6.802385596628738
+Qwen2.5 7B Instruct,Top stand-in,51,test,ENT,ear nose and throat,Ear Nose and Throat,1,ok,,1580.0162399991675,87,6,6.802967908132722
+Qwen2.5 7B Instruct,Top stand-in,52,test,OBGYN,obstetrics and gynecology,obstetrics and gynecology,1,ok,,1915.055397001197,89,8,6.874570876396074
+Qwen2.5 7B Instruct,Top stand-in,53,test,NICU,neonatal intensive care unit,Neonatal Intensive Care Unit,1,ok,,2026.393926998935,88,8,6.543437382167006
+Qwen2.5 7B Instruct,Top stand-in,54,test,PICU,pediatric intensive care unit,Pediatric Intensive Care Unit,1,ok,,1834.1848910004048,88,7,6.794144224152406
+Qwen2.5 7B Instruct,Top stand-in,55,test,ED,emergency department,Emergency Department,1,ok,,1121.5989159991295,87,3,7.159391928978832
+Qwen2.5 7B Instruct,Top stand-in,56,test,OR,operating room,operative report,0,ok,,1084.4480480009224,87,3,7.547112851978476
+Qwen2.5 7B Instruct,Top stand-in,57,test,PACU,post-anesthesia care unit,Post Anesthesia Care Unit,0,ok,,1659.7268739988067,89,6,6.760243458901099
+Qwen2.5 7B Instruct,Top stand-in,58,test,PPE,personal protective equipment,Preventive Pulmonary Evaluation,0,ok,,1870.6644690009853,88,7,5.955677845473983
+Qwen2.5 7B Instruct,Top stand-in,59,test,AED,automated external defibrillator,Automatic External Defibrillator,0,ok,,1570.504090001123,88,6,7.750245747375573
+Qwen2.5 7B Instruct,Top stand-in,60,test,DNR,do not resuscitate,do not resuscitate,1,ok,,1481.814819999272,88,6,8.042873879694692
+Qwen2.5 1.5B Instruct,Cheap stand-in,11,test,COPD,chronic obstructive pulmonary disease,Chronic Obstructive Pulmonary Disease,1,ok,,399.16632499989646,89,9,28.98373368457325
+Qwen2.5 1.5B Instruct,Cheap stand-in,12,test,CHF,congestive heart failure,Congestive Heart Failure,1,ok,,365.7213510014117,88,6,27.924900633895245
+Qwen2.5 1.5B Instruct,Cheap stand-in,13,test,CAD,coronary artery disease,Coronary Artery Disease,1,ok,,418.8333620004414,87,7,27.214692823874284
+Qwen2.5 1.5B Instruct,Cheap stand-in,14,test,CVA,cerebrovascular accident,Cerebral Vascular Accident,0,ok,,404.2032760007714,88,7,28.27860077483366
+Qwen2.5 1.5B Instruct,Cheap stand-in,15,test,DVT,deep vein thrombosis,Deep Vein Thrombosis,1,ok,,460.1320849997137,88,8,26.82376451417133
+Qwen2.5 1.5B Instruct,Cheap stand-in,16,test,PE,pulmonary embolism,Physical Examination,0,ok,,234.04670499985517,87,3,37.37339761557723
+Qwen2.5 1.5B Instruct,Cheap stand-in,17,test,UTI,urinary tract infection,Urinary Tract Infection,1,ok,,431.1570749996463,88,7,25.71893611783682
+Qwen2.5 1.5B Instruct,Cheap stand-in,18,test,GERD,gastroesophageal reflux disease,Gastroesophageal Reflux Disease,1,ok,,524.2640910000773,88,9,25.452344726556973
+Qwen2.5 1.5B Instruct,Cheap stand-in,19,test,PUD,peptic ulcer disease,Peptic Ulcer Disease,1,ok,,380.2223530001356,88,6,28.01682877515094
+Qwen2.5 1.5B Instruct,Cheap stand-in,20,test,IBS,irritable bowel syndrome,Irritable Bowel Syndrome,1,ok,,423.322819000532,88,7,26.693207443184303
+Qwen2.5 1.5B Instruct,Cheap stand-in,21,test,IBD,inflammatory bowel disease,Inflammatory Bowel Disease,1,ok,,364.484010000524,88,6,27.785881993359176
+Qwen2.5 1.5B Instruct,Cheap stand-in,22,test,SLE,systemic lupus erythematosus,Systemic Lupus Erythematosus,1,ok,,513.2842590010114,88,10,27.77716050754428
+Qwen2.5 1.5B Instruct,Cheap stand-in,23,test,RA,rheumatoid arthritis,Rheumatoid Arthritis,1,ok,,408.6534520010901,87,7,26.68486320195485
+Qwen2.5 1.5B Instruct,Cheap stand-in,24,test,OA,osteoarthritis,osteoarthritis,1,ok,,305.2277570004662,87,5,32.44435792615664
+Qwen2.5 1.5B Instruct,Cheap stand-in,25,test,AKI,acute kidney injury,Acute Kidney Injury,1,ok,,370.17111999921326,88,6,27.855023885682986
+Qwen2.5 1.5B Instruct,Cheap stand-in,26,test,CKD,chronic kidney disease,Chronic Kidney Disease,1,ok,,363.029213000118,88,6,28.742377282025
+Qwen2.5 1.5B Instruct,Cheap stand-in,27,test,BUN,blood urea nitrogen,Blood Urea Nitrogen,1,ok,,371.72814999939874,88,6,27.382881135476804
+Qwen2.5 1.5B Instruct,Cheap stand-in,28,test,WBC,white blood cell,White Blood Cells,0,ok,,285.66494200094894,88,4,31.06385952922721
+Qwen2.5 1.5B Instruct,Cheap stand-in,29,test,RBC,red blood cell,Red Blood Cell,1,ok,,282.7995900006499,88,4,31.446293661213357
+Qwen2.5 1.5B Instruct,Cheap stand-in,30,test,Hgb,hemoglobin,hemoglobin,1,ok,,240.81929400017543,88,3,35.545866015782366
+Qwen2.5 1.5B Instruct,Cheap stand-in,31,test,Hct,hematocrit,Hematocrit,1,ok,,341.9798000013543,88,5,29.39378262709872
+Qwen2.5 1.5B Instruct,Cheap stand-in,32,test,ESR,erythrocyte sedimentation rate,Erythrocyte Sedimentation Rate,1,ok,,633.6949699998513,88,10,21.233856960245973
+Qwen2.5 1.5B Instruct,Cheap stand-in,33,test,CRP,C-reactive protein,C-reactive protein,1,ok,,323.2289129991841,88,5,31.25390673834229
+Qwen2.5 1.5B Instruct,Cheap stand-in,34,test,HbA1c,hemoglobin A1c,Hemoglobin A1c,1,ok,,445.2549170000566,91,7,28.027579137871665
+Qwen2.5 1.5B Instruct,Cheap stand-in,35,test,TSH,thyroid-stimulating hormone,Thyroid-Stimulating Hormone,1,ok,,511.2220600003639,88,9,25.59792486155789
+Qwen2.5 1.5B Instruct,Cheap stand-in,36,test,T4,thyroxine,Thyroxine,1,ok,,320.8280360013305,88,5,28.29846961876301
+Qwen2.5 1.5B Instruct,Cheap stand-in,37,test,CXR,chest X-ray,Chest X-ray,1,ok,,364.29763799969805,88,5,28.105835333531942
+Qwen2.5 1.5B Instruct,Cheap stand-in,38,test,EEG,electroencephalogram,Electroencephalogram,1,ok,,427.2002070010785,88,7,27.418615673264107
+Qwen2.5 1.5B Instruct,Cheap stand-in,39,test,EMG,electromyography,Electromyography,1,ok,,337.4824179991265,88,5,29.49765493643256
+Qwen2.5 1.5B Instruct,Cheap stand-in,40,test,PET,positron emission tomography,Positron Emission Tomography,1,ok,,460.6777650005824,87,8,25.449501826001757
+Qwen2.5 1.5B Instruct,Cheap stand-in,41,test,SOB,shortness of breath,Shortness of Breath,1,ok,,326.84735499969975,88,5,29.79862091982383
+Qwen2.5 1.5B Instruct,Cheap stand-in,42,test,NPO,nothing by mouth,Non-Patient Ordered,0,ok,,344.28609700080415,88,5,28.743396204721964
+Qwen2.5 1.5B Instruct,Cheap stand-in,43,test,PRN,as needed,PROVIDE_NOW,0,ok,,375.9518090009806,88,6,27.65499472250517
+Qwen2.5 1.5B Instruct,Cheap stand-in,44,test,STAT,immediately,IMMEDIATELY,1,ok,,325.2717750001466,87,5,30.455306837216387
+Qwen2.5 1.5B Instruct,Cheap stand-in,45,test,BID,twice daily,BIW,0,ok,,232.70722400047816,88,3,39.32724198051991
+Qwen2.5 1.5B Instruct,Cheap stand-in,46,test,TID,three times daily,Twice daily,0,ok,,293.71436899964465,88,4,32.452781203349126
+Qwen2.5 1.5B Instruct,Cheap stand-in,47,test,QID,four times daily,QUARTERLY,0,ok,,354.5170220004365,88,5,28.139210301202105
+Qwen2.5 1.5B Instruct,Cheap stand-in,48,test,PO,by mouth,口服,0,ok,,186.0759549999784,87,2,53.87495622659806
+Qwen2.5 1.5B Instruct,Cheap stand-in,49,test,IM,intramuscular,INTRAMUSCULAR,1,ok,,361.62980400149536,87,6,27.36939098543492
+Qwen2.5 1.5B Instruct,Cheap stand-in,50,test,SC,subcutaneous,Sepsis,0,ok,,291.4003400001093,87,4,28.687819151988062
+Qwen2.5 1.5B Instruct,Cheap stand-in,51,test,ENT,ear nose and throat,"Ear, Nose, and Throat",0,ok,,438.00754899893946,87,8,28.01022373166206
+Qwen2.5 1.5B Instruct,Cheap stand-in,52,test,OBGYN,obstetrics and gynecology,OBSTETRICIAN AND GYNAECOLOGIST,0,ok,,701.0317999993276,89,14,26.32039059459642
+Qwen2.5 1.5B Instruct,Cheap stand-in,53,test,NICU,neonatal intensive care unit,Neonatal Intensive Care Unit,1,ok,,442.5103109988413,88,8,28.468940386038835
+Qwen2.5 1.5B Instruct,Cheap stand-in,54,test,PICU,pediatric intensive care unit,Pediatric Intensive Care Unit,1,ok,,449.4111990006786,88,7,27.699077225027303
+Qwen2.5 1.5B Instruct,Cheap stand-in,55,test,ED,emergency department,Emergency Department,1,ok,,226.6445669993118,87,3,36.65913117859107
+Qwen2.5 1.5B Instruct,Cheap stand-in,56,test,OR,operating room,orthopedic surgery,0,ok,,302.0209540009091,87,5,31.739381589889103
+Qwen2.5 1.5B Instruct,Cheap stand-in,57,test,PACU,post-anesthesia care unit,Post-Anesthesia Care Unit,1,ok,,382.1257549989241,89,6,27.409150087937693
+Qwen2.5 1.5B Instruct,Cheap stand-in,58,test,PPE,personal protective equipment,Personal Protective Equipment,1,ok,,313.81762999990315,88,4,30.154542027892955
+Qwen2.5 1.5B Instruct,Cheap stand-in,59,test,AED,automated external defibrillator,Automated External Defibrillator,1,ok,,407.5476800007891,88,7,28.66362013332678
+Qwen2.5 1.5B Instruct,Cheap stand-in,60,test,DNR,do not resuscitate,Do Not Resuscitate,1,ok,,383.6165060001804,88,6,27.889853671234405
+Qwen2.5 3B,Local,11,test,COPD,chronic obstructive pulmonary disease,chronic obstructive pulmonary disease,1,ok,,984.1547399992124,89,7,11.591380649349144
+Qwen2.5 3B,Local,12,test,CHF,congestive heart failure,Congestive heart failure,1,ok,,1169.529078004416,88,6,10.990822663076331
+Qwen2.5 3B,Local,13,test,CAD,coronary artery disease,coronary artery disease,1,ok,,1032.359874996473,87,6,11.344900110697672
+Qwen2.5 3B,Local,14,test,CVA,cerebrovascular accident,Cerebral Vascular Accident,0,ok,,1212.68407900061,88,7,11.606082913856335
+Qwen2.5 3B,Local,15,test,DVT,deep vein thrombosis,Deep vein thrombosis,1,ok,,1076.5035869990245,88,6,11.262381601890544
+Qwen2.5 3B,Local,16,test,PE,pulmonary embolism,pulmonary embolism,1,ok,,1160.2034140087198,87,7,11.070466683430515
+Qwen2.5 3B,Local,17,test,UTI,urinary tract infection,urinary tract infection,1,ok,,984.6749569987878,88,5,12.570267796985148
+Qwen2.5 3B,Local,18,test,GERD,gastroesophageal reflux disease,gastroesophageal reflux disease,1,ok,,1317.6043470011791,88,8,10.74475957928894
+Qwen2.5 3B,Local,19,test,PUD,peptic ulcer disease,Peptic Ulcer Disease,1,ok,,1129.5423159899656,88,6,11.217322558254963
+Qwen2.5 3B,Local,20,test,IBS,irritable bowel syndrome,irritable bowel syndrome,1,ok,,1019.184481992852,88,5,11.306001451690587
+Qwen2.5 3B,Local,21,test,IBD,inflammatory bowel disease,inflammatory bowel disease,1,ok,,960.7315890025347,88,5,12.638709840499482
+Qwen2.5 3B,Local,22,test,SLE,systemic lupus erythematosus,Systemic Lupus Erythematosus,1,ok,,1578.103011008352,88,10,10.148626637100335
+Qwen2.5 3B,Local,23,test,RA,rheumatoid arthritis,rheumatoid arthritis,1,ok,,1121.2668740045046,87,6,11.340568637545164
+Qwen2.5 3B,Local,24,test,OA,osteoarthritis,osteoarthritis,1,ok,,1055.012615994201,87,5,11.40375685365787
+Qwen2.5 3B,Local,25,test,AKI,acute kidney injury,acute kidney injury,1,ok,,1023.813407009584,88,4,11.163579936814138
+Qwen2.5 3B,Local,26,test,CKD,chronic kidney disease,chronic kidney disease,1,ok,,1067.8835370054005,88,5,10.977237600112408
+Qwen2.5 3B,Local,27,test,BUN,blood urea nitrogen,blood urea nitrogen,1,ok,,1094.9101060105022,88,5,11.544971126027214
+Qwen2.5 3B,Local,28,test,WBC,white blood cell,whitebloodcell,0,ok,,987.6692230027402,88,4,10.998256776300956
+Qwen2.5 3B,Local,29,test,RBC,red blood cell,red blood cells,0,ok,,980.1597579935332,88,4,10.944631111208396
+Qwen2.5 3B,Local,30,test,Hgb,hemoglobin,hemoglobin,1,ok,,972.9393939924194,88,3,12.253550466247596
+Qwen2.5 3B,Local,31,test,Hct,hematocrit,hematocrit,1,ok,,1105.82822500146,88,5,9.620916642454027
+Qwen2.5 3B,Local,32,test,ESR,erythrocyte sedimentation rate,erythrocyte sedimentation rate,1,ok,,1557.8360020008404,88,8,9.42971444467233
+Qwen2.5 3B,Local,33,test,CRP,C-reactive protein,C-Reactive Protein,1,ok,,1139.476039010333,88,5,10.038789884112209
+Qwen2.5 3B,Local,34,test,HbA1c,hemoglobin A1c,hemoglobin a1c,1,ok,,1384.8840199934784,91,6,9.576021641808907
+Qwen2.5 3B,Local,35,test,TSH,thyroid-stimulating hormone,thyroid-stimulating-hormone,0,ok,,1684.9310219986364,88,9,9.55232498283235
+Qwen2.5 3B,Local,36,test,T4,thyroxine,Thyroxine T4,0,ok,,1346.627045000787,88,7,8.678758243270552
+Qwen2.5 3B,Local,37,test,CXR,chest X-ray,chest x-ray,1,ok,,1183.0738580028992,88,4,6.919206159477324
+Qwen2.5 3B,Local,38,test,EEG,electroencephalogram,electroencephalogram,1,ok,,1484.332574007567,88,7,7.965697430948783
+Qwen2.5 3B,Local,39,test,EMG,electromyography,Electromyography,1,ok,,1270.2813590003643,88,5,7.39667948264665
+Qwen2.5 3B,Local,40,test,PET,positron emission tomography,positron emission tomography,1,ok,,1354.104070996982,87,6,7.320671012705024
+Qwen2.5 3B,Local,41,test,SOB,shortness of breath,shortness of breath,1,ok,,1264.1761709965067,88,5,7.486767139081673
+Qwen2.5 3B,Local,42,test,NPO,nothing by mouth,Nothing By Mouth,1,ok,,1009.256049990654,88,4,9.38801854133662
+Qwen2.5 3B,Local,43,test,PRN,as needed,as needed,1,ok,,840.3292799921473,88,3,11.002512240294868
+Qwen2.5 3B,Local,44,test,STAT,immediately,As Soon As Possible,0,ok,,1059.2537820048165,87,5,9.254186594015133
+Qwen2.5 3B,Local,45,test,BID,twice daily,bis daily,0,ok,,922.3431230057032,88,3,9.71100062150404
+Qwen2.5 3B,Local,46,test,TID,three times daily,Three times daily,1,ok,,1017.5568889972056,88,4,8.993877417947733
+Qwen2.5 3B,Local,47,test,QID,four times daily,Quateridaily,0,ok,,1127.0868879946647,88,5,8.883629780059094
+Qwen2.5 3B,Local,48,test,PO,by mouth,by mouth,1,ok,,805.9377429890446,87,3,11.302074307371212
+Qwen2.5 3B,Local,49,test,IM,intramuscular,Intramuscular,1,ok,,1038.9641270012362,87,5,9.541620548834011
+Qwen2.5 3B,Local,50,test,SC,subcutaneous,subcutaneous,1,ok,,862.9674890107708,87,4,12.45132310872184
+Qwen2.5 3B,Local,51,test,ENT,ear nose and throat,Ear Nose Throat,0,ok,,960.6591429910624,87,5,11.383842684401175
+Qwen2.5 3B,Local,52,test,OBGYN,obstetrics and gynecology,obstetrician gynecologist,0,ok,,1486.141357003362,89,8,8.667398339543164
+Qwen2.5 3B,Local,53,test,NICU,neonatal intensive care unit,neonatal intensive care unit,1,ok,,1402.6957410096657,88,7,8.37274504034467
+Qwen2.5 3B,Local,54,test,PICU,pediatric intensive care unit,pediatric intensive care unit,1,ok,,1268.4930660034297,88,6,8.465429303083534
+Qwen2.5 3B,Local,55,test,ED,emergency department,erectile dysfunction,0,ok,,1052.7051910030425,87,5,9.368313366334778
+Qwen2.5 3B,Local,56,test,OR,operating room,orlando reflex test,0,ok,,1045.6581640028162,87,5,9.32239259079058
+Qwen2.5 3B,Local,57,test,PACU,post-anesthesia care unit,Post Anesthesia Care Unit,0,ok,,1262.5406389997806,89,6,8.42133629764371
+Qwen2.5 3B,Local,58,test,PPE,personal protective equipment,personal protective equipment,1,ok,,892.8321800049162,88,4,10.332446465011754
+Qwen2.5 3B,Local,59,test,AED,automated external defibrillator,Automated External Defibrillator,1,ok,,1392.2951739950804,88,7,8.339588024351597
+Qwen2.5 3B,Local,60,test,DNR,do not resuscitate,Do Not Resuscitate,1,ok,,1295.936182999867,88,6,8.14933936022253

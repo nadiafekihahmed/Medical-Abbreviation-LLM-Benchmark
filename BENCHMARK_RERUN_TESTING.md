@@ -270,3 +270,153 @@ The changed outputs show several recurring causes of exact-match errors:
 Because the benchmark uses strict exact-match scoring, even medically similar answers can be counted as incorrect when they do not exactly match the expected output.
 
 The rerun therefore provides additional evidence that benchmark accuracy can vary between runs and environments, while also showing that the original observation about the Cheap model achieving strong accuracy was reproduced in this rerun: the Cheap model achieved **37/50 (74%)**.
+## Khira's Testing
+
+I reran the three Qwen2.5 models on my PC using the same dataset, prompt, scorer, temperature (0), maximum output tokens (32), and exact-match scoring procedure described above. Each rerun was saved in a separate CSV file so that the previous results were not overwritten.
+
+The files used for my reruns were:
+
+- 1.5B: `results/khira_cheap_results.csv`
+- 3B: `results/khira_local_results.csv`
+- 7B: `results/khira_top_results.csv`
+
+The purpose of my testing was to verify the benchmark results and check whether the smaller models could still achieve similar or better accuracy than the larger model.
+
+---
+
+### Qwen2.5 1.5B — Cheap
+
+- **Khira's rerun:** 36/50 (72%)
+- **p50:** 2345.79 ms
+- **p95:** 2487.29 ms
+- **Speed:** 35.60 tokens/sec
+
+The 1.5B model achieved **72% accuracy** in my rerun. It was also the fastest of the three models I tested.
+
+**What went well:**
+
+- It correctly expanded most of the common medical abbreviations.
+- It achieved the same overall accuracy as the much larger 7B model.
+- It was the fastest model in my testing, reaching an average speed of **35.60 tokens/sec**.
+- It correctly handled abbreviations such as **TSH, CXR, STAT, PACU, PPE, AED, and DNR**.
+
+**What went wrong:**
+
+- Some abbreviations were interpreted incorrectly. For example, **CAD** was expanded as `Cardiac Arrest` instead of `coronary artery disease`.
+- **PE** was interpreted as `Physical Examination` instead of `pulmonary embolism`.
+- It struggled with several medication and frequency abbreviations, including **NPO, PRN, BID, TID, and QID**.
+- Some answers were close to the expected output but failed the exact-match scorer. For example, **WBC** produced `White Blood Cells` instead of `white blood cell`.
+- **CVA** produced `Cerebral Vascular Accident` instead of the expected `cerebrovascular accident`.
+- Other incorrect interpretations included **SC** as `Sepsis` and **OR** as `orthopedic surgery`.
+- **ENT** produced `Ear, Nose, and Throat`, which is understandable but did not exactly match the expected output.
+
+---
+
+### Qwen2.5 3B — Local
+
+- **Khira's rerun:** 35/50 (70%)
+- **p50:** 2567.97 ms
+- **p95:** 2768.94 ms
+- **Speed:** 19.51 tokens/sec
+
+The 3B model achieved **70% accuracy**, which was slightly lower than both the 1.5B and 7B models in my testing.
+
+**What went well:**
+
+- It correctly expanded many common medical abbreviations.
+- It correctly handled **PE**, which both the 1.5B and 7B models interpreted incorrectly.
+- It also correctly answered **NPO, PRN, PO, PPE, and AED**.
+- Several of its incorrect outputs were very close to the expected answers.
+
+**What went wrong:**
+
+- Some errors were caused by spacing differences. For example, **RA** produced `rheumatoidarthritis` and **WBC** produced `whitebloodcell`.
+- **RBC** produced `red blood cells` instead of the expected singular `red blood cell`.
+- **TSH** produced `thyroid-stimulating-hormone` instead of `thyroid-stimulating hormone`.
+- **CXR** produced `chest xray` instead of `chest X-ray`.
+- It struggled with the frequency abbreviations **BID, TID, and QID**.
+- **ED** was interpreted as `erectile dysfunction` instead of `emergency department`.
+- **STAT** was incorrectly expanded as `statistically`.
+- **OR** produced `orlando`.
+- **OBGYN** produced `obstetrician gynecologist` instead of `obstetrics and gynecology`.
+
+These results show that some of the errors came from formatting and wording differences, while others came from a different interpretation of an abbreviation.
+
+---
+
+### Qwen2.5 7B — Top
+
+- **Original result:** 36/50 (72%)
+- **Khira's rerun:** 36/50 (72%)
+- **Accuracy change:** No change
+- **Outputs changed:** 0/50
+- **Correct → incorrect:** 0
+- **Incorrect → correct:** 0
+
+The rerun fully reproduced the original Top model result. All **50 outputs were identical** between the original test and my rerun, resulting in the same accuracy of **36/50 (72%)**.
+
+**What went well:**
+
+- The model reproduced exactly the same outputs across both runs.
+- It correctly expanded many common medical abbreviations.
+- The identical outputs and accuracy show that the Top model result was reproducible in this test.
+- It correctly handled **NPO, BID, QID, ED, and DNR**.
+
+**What went wrong:**
+
+- **PE** was interpreted as `Physical Examination` instead of `pulmonary embolism`.
+- Some answers failed because of spacing differences. **IBS** produced `IrritableBowelSyndrome`, **CKD** produced `ChronicKidneyDisease`, and **WBC** produced `WhiteBloodCell`.
+- **TSH** produced `thyroid stimulating hormone` instead of `thyroid-stimulating hormone`.
+- **CXR** produced `chest x ray` instead of `chest X-ray`.
+- **SOB** produced `ShortnessOfBreath` instead of `shortness of breath`.
+- Some outputs were medically related but did not match the expected wording. **PRN** produced `pro re nata` instead of `as needed`, while **TID** produced `three times a day` instead of `three times daily`.
+- Other incorrect interpretations included **STAT** as `STANDING ORDER`, **OR** as `operative report`, and **PPE** as `Preventive Pulmonary Evaluation`.
+- **PACU** produced `Post Anesthesia Care Unit` instead of `post-anesthesia care unit`.
+- **AED** produced `Automatic External Defibrillator` instead of `automated external defibrillator`.
+
+The main difference between the original Top test and my rerun was therefore performance rather than accuracy or model output.
+
+---
+
+### Khira's Rerun — Performance Comparison
+
+| Model | Accuracy | p50 | p95 | Speed |
+| --- | ---: | ---: | ---: | ---: |
+| Qwen2.5 1.5B | 36/50 (**72%**) | 2345.79 ms | 2487.29 ms | **35.60 tok/s** |
+| Qwen2.5 3B | 35/50 (**70%**) | 2567.97 ms | 2768.94 ms | 19.51 tok/s |
+| Qwen2.5 7B | 36/50 (**72%**) | 3421.38 ms | 4510.35 ms | 7.53 tok/s |
+
+The results show that increasing the model size did not increase the accuracy in my rerun. The **1.5B and 7B models both achieved 72%**, while the 3B model achieved **70%**.
+
+There was a clearer difference in performance speed. The 1.5B model was the fastest at **35.60 tokens/sec**, followed by the 3B model at **19.51 tokens/sec**. The 7B model was the slowest at **7.53 tokens/sec**.
+
+The 1.5B model therefore achieved the same accuracy as the 7B model while generating output much faster on my PC.
+
+---
+
+### Overall Observation — Khira's Rerun
+
+My rerun produced the following results:
+
+- **1.5B:** 36/50 (**72%**)
+- **3B:** 35/50 (**70%**)
+- **7B:** 36/50 (**72%**)
+
+The results show that the larger model did not automatically achieve higher accuracy on this specific benchmark. The smallest 1.5B model matched the 7B model at **72%**, while the 3B model achieved **70%**.
+
+For the Top/7B model, I was also able to compare the original test with the rerun. The result was fully reproduced: both runs achieved **36/50 (72%)**, and all **50 outputs were identical**. Only the performance measurements changed between the two runs.
+
+Across the three models, several recurring causes of errors were observed:
+
+- ambiguous abbreviations with multiple possible meanings;
+- missing or added spaces;
+- singular and plural differences;
+- hyphenation differences;
+- alternative but medically related terminology;
+- different interpretations of the same abbreviation.
+
+Examples include `WhiteBloodCell` instead of `white blood cell`, `chest x ray` instead of `chest X-ray`, and `three times a day` instead of `three times daily`.
+
+Because the benchmark uses strict exact-match scoring, medically understandable or closely related answers can still be marked incorrect when they do not exactly match the expected output.
+
+Overall, my testing supports the observation that model size alone did not determine performance on this benchmark. In my rerun, the **1.5B model matched the 7B model's 72% accuracy while running substantially faster**, and the 7B original result was exactly reproduced in terms of both accuracy and outputs.
